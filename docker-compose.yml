@@ -90,7 +90,7 @@ services:
       - N8N_BASIC_AUTH_PASSWORD=adminpass
       - N8N_PORT=5678
       - N8N_HOST=localhost
-      - WEBHOOK_URL=http://localhost:5678
+      - WEBHOOK_URL=http://n8n:5678
       - EXECUTIONS_PROCESS=main
       - EXECUTIONS_MODE=regular
       - QUEUE_BULL_REDIS_HOST=redis
@@ -118,7 +118,7 @@ services:
       - AUTHENTICATION_API_KEY=change-me-to-a-secure-key
       - SERVER_TYPE=http
       - SERVER_PORT=8080
-      - SERVER_URL=http://localhost:8080
+      - SERVER_URL=http://evolutionapi:8080
       - CORS_ORIGIN=*
       - CORS_METHODS=GET,POST,PUT,DELETE
       - CORS_CREDENTIALS=true
